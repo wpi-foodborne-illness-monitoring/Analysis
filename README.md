@@ -56,7 +56,14 @@ Run the `cleanDateColumn.py` script first to prep the datetime column
 
 Run the `binFoodOvertime.py` script to produce a food category overtime graph binned by month. The category can be change manually in 
 the script in line 7. The script will then produce a cross correlation graph with lags. Each tick of lag will represent a month of lag.
+The max correlation is that printed with the corresponding month lag in the terminal.
 
 The graph can be better understood with the following image:
 ![alt text](Explaination.png)
+
+
+## Dashboard
+
+To run the dashboard locally, run the `app.py` script. You can then access the dashboard locally on `http://127.0.0.1:8050/` and can be exited
+using the `CTRL + c` command.
 
